@@ -1,0 +1,29 @@
+name: subly
+description: Subscriptions-only YouTube feed client (independent app, not affiliated with YouTube or Google).
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  go_router: ^14.2.0
+  google_sign_in: ^6.2.1
+  http: ^1.2.2
+  shared_preferences: ^2.2.3
+  cached_network_image: ^3.3.1
+  youtube_player_iframe: ^5.1.1
+  youtube_player_flutter: ^9.1.1
+  url_launcher: ^6.3.0
+  package_info_plus: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
